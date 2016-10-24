@@ -17,7 +17,6 @@ Colocar na pasta library do CI.
 Colocar a chave secreta na library `Recaptcha.php`:
 
 ```
-library
  'secret' => 'Sua chave aqui',
 ```
 ## Como usar
@@ -26,7 +25,7 @@ library
 <?php
   
   public function login(){
-    $this->load->library('recaptcha');
+    	$this->load->library('recaptcha');
 	  $recaptchaResponse = trim($this->input->post('g-recaptcha-response'));
 	  $userIp=$this->input->ip_address();			
 	  $status = $this->recaptcha->send($recaptchaResponse, $userIp);			
