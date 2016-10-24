@@ -8,7 +8,7 @@ with reCAPTCHA.
 
 ## Instalação
 Colocar na pasta library do CI.
-Colocar a chave secreta na library:
+Colocar a chave secreta na library `Recaptcha.php`:
 
 ```
 library
