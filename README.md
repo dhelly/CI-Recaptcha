@@ -1,6 +1,12 @@
 # CI-Recaptcha
 Biblioteca Simples para Recaptcha do Google
 
+##
+Versão do Codeigniter : 
+```
+3.X
+```
+
 ## Descrição
 reCAPTCHA é um serviço de CAPTCHA free da Google.
 This is Google authored code that provides plugins for third-party integration
